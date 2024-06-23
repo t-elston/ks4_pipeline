@@ -3,7 +3,7 @@
 This is a pipeline which spike-sorts neuropixel 1.0 data aquired with [SpikeGLX](https://billkarsh.github.io/SpikeGLX/) and task control via either [NIMH MonkeyLogic](https://monkeylogic.nimh.nih.gov/index.html) or [PsychToolbox](https://psychtoolbox.org/). It is geared towards NHP users. 
 
 ## Automated spike-sorting and basic quality metrics
-`npx_ks4_pipeline.ipynb` uses [Kilosort 4](https://github.com/MouseLand/Kilosort) to sort your data, compute basic quality metrics for each of the putative units, and map all data streams to a common timeline.
+`npx_ks4_pipeline.ipynb` uses [Kilosort 4](https://github.com/MouseLand/Kilosort) to sort your data, compute basic quality metrics for each of the putative unit, and map all data streams to a common timeline.
 
 To use this notebook straight out of the box, you'll need to have Kilosort 4 installed on your computer. This pipeline is optimized for recordings made with [SpikeGLX](https://billkarsh.github.io/SpikeGLX/) where each probe has its own folder.
 
