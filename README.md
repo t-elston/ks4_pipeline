@@ -12,7 +12,7 @@ If you've got everything set up as described above, all you need to do the run t
 
 If you are recording from multiple brain areas, you can also modify the `brain_areas` variable such that the first element is the brain area you lowered the `imec0` probe into and the second element is the brain area you lowered the `imec1` probe into. Extend this list to as many brain areas as you have probes. 
 
-## Extracting event codes and aligning your data onto a common timeline
+## Extracting event codes and mapping your data to a common timeline
 
 `npx_ks4_pipeline.ipynb` also extracts the event codes and edges of synchronization pulses across all of your data streams and places all of your spike/event data onto a common timeline. 
 
