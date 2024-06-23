@@ -1,6 +1,6 @@
 # neuropixel_preprocessing: spike-sorting, event extraction, synchronization using [Kilosort4](https://github.com/MouseLand/Kilosort)
 
-This is a pipeline which spike-sorts neuropixel 1.0 data aquired with [SpikeGLX](https://billkarsh.github.io/SpikeGLX/) and task control via either [NIMH MonkeyLogic](https://monkeylogic.nimh.nih.gov/index.html) or [PsychToolbox](https://psychtoolbox.org/). 
+This is a pipeline which spike-sorts neuropixel 1.0 data aquired with [SpikeGLX](https://billkarsh.github.io/SpikeGLX/) and task control via either [NIMH MonkeyLogic](https://monkeylogic.nimh.nih.gov/index.html) or [PsychToolbox](https://psychtoolbox.org/). It is geared towards NHP users. 
 
 ## Automated spike-sorting and basic quality metrics
 `npx_ks4_pipeline.ipynb` uses [Kilosort 4](https://github.com/MouseLand/Kilosort) to sort your data, computes basic quality metrics for each of the putative units, and maps all data streams to a common timeline.
