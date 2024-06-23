@@ -7,7 +7,7 @@ This is a pipeline which spike-sorts neuropixel 1.0 data aquired with [SpikeGLX]
 
 To use this notebook straight out of the box, you'll need to have Kilosort 4 installed on your computer. This pipeline is optimized for recordings made with [SpikeGLX](https://billkarsh.github.io/SpikeGLX/) where each probe has its own folder.
 
-If you've got everything set up as described above, all you need to do the run the notebook is modify a few path variables in the second code cell. Specifically:
+If you've got everything set up as described above, all you need to do the run the notebook is modify a  path variable in the second code cell. Specifically:
 - `base_folder`: path to the folder containing your recording data (the one that has the imec0 and imec1 sub-directories in it). 
 
 If you are recording from multiple brain areas, you can also modify the `brain_areas` variable such that the first element is the brain area you lowered the `imec0` probe into and the second element is the brain area you lowered the `imec1` probe into. Extend this list to as many brain areas as you have probes. 
